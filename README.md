@@ -3,8 +3,8 @@
 
 #Інсталяція.
 1. Клонуйте репозиторій: " git clone https://github.com/kulidaden/comm.git
-2. Потім ця команда: `cd comm`
-3. Виконайте команди для налаштування: `pip install -r requirements.txt`
+2. Потім ця команда: `cd comm` -> `cd commentars`
+3. Виконайте команди для налаштування: `pip install -r requirements.txt` -> `python manage.py migrate`
    
 ## Використання
 У консолі(терміналі), за допомогою команди "cd commentars" ви перейдете до програми. Далі напишіть команду: "python manage.py runserver" або "python manage.py runserver 8001".
