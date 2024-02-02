@@ -2,7 +2,7 @@
 Це звичайний сайт де користувачі можуть залишати свої коменарі.
 
 #Інсталяція.
-1. Клонуйте репозиторій: " git clone https://github.com/kulidaden/comm.git
+1. Клонуйте репозиторій: `git clone https://github.com/kulidaden/comm.git`
 2. Потім ці команди: `cd comm` -> `cd commentars`
 3. Виконайте ці дві команди для налаштування: `pip install -r requirements.txt` -> `python manage.py migrate`
    
