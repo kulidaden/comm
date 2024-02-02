@@ -7,7 +7,7 @@
 3. Виконайте ці дві команди для налаштування: `pip install -r requirements.txt` -> `python manage.py migrate`
    
 ## Використання
-У консолі(терміналі), за допомогою команди `cd commentars` ви перейдете до програми. Далі напишіть команду: `python manage.py runserver` або `python manage.py runserver 8001`.
+У консолі(терміналі), будучи в папці `commentars`, напишіть команду: `python manage.py runserver` або `python manage.py runserver 8001`.
 Перейдіть за посиланням, далі зареєструйтесь або залогіньтесь. Після чого у Вас буде можливість писати коментарі і використовувати програму.
 
 ## Контакт
