@@ -9,6 +9,9 @@
 ## Використання
 У консолі(терміналі), будучи в папці `commentars`, напишіть команду: `python manage.py runserver` або `python manage.py runserver 8001`.
 Перейдіть за посиланням, далі зареєструйтесь або залогіньтесь. Після чого у Вас буде можливість писати коментарі і використовувати програму.
+##Docker
+pull: docker pull denyskulida/commentars-django
+run: docker run -d -p 8000:8000 --name commentars-django denyskulida/commentars-django:latest
 
 ## Контакт
 Якщо Вам потрібна консультація або допомога по використанні програми: Telegram: @Kosmos_qwerty
