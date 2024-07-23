@@ -1,11 +1,10 @@
 from django import forms
 from .models import Author, Comment
-from captcha.fields import CaptchaField
+
 
 
 class AuthorRegistrationForm(forms.ModelForm):
     password = forms.CharField(widget=forms.PasswordInput)
-    captcha = CaptchaField()
 
 
 
